@@ -16,5 +16,7 @@
 3. **依赖安装**
    - 需要安装`moviepy`库。
    - 可以使用`pip install moviepy`命令进行安装。
+4. **用途, 举个例子**
+   - 可以把网易云的mv 下载下来, 然后转换为 mp3 格式
 
 https://www.doubao.com/thread/we8036b99bd43c6e3
