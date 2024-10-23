@@ -50,8 +50,8 @@ def convert_mp4_to_mp3(input_path, output_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Batch convert MP4 files to MP3")
-    parser.add_argument("-i", "--input_path", default="./", help="Path to the directory containing MP4 files")
-    parser.add_argument("-o", "--output_path", default="./", help="Path to save MP3 files (optional)")
+    parser.add_argument("-i", "--input_path", default="./mp4", help="Path to the directory containing MP4 files")
+    parser.add_argument("-o", "--output_path", default="./mp3", help="Path to save MP3 files (optional)")
     args = parser.parse_args()
 
     convert_mp4_to_mp3(args.input_path, args.output_path)
